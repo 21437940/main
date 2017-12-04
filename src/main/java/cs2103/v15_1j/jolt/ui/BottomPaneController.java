@@ -576,7 +576,12 @@ public class BottomPaneController {
 	}
 	
 	private void configureHelpDefaultData(){
+<<<<<<< HEAD
 		helpPopOverController.addHeader("Possible help syntax:");
+=======
+		helpPopOverController.addHeader("Invalid help syntax");
+		helpPopOverController.addEmptyDivider(2);
+>>>>>>> parent of e278dc5... Changed help
 		helpPopOverController.addMessage("help common", 0);
 		helpPopOverController.addMessage("help add", 0);
 		helpPopOverController.addMessage("help delete", 0);
